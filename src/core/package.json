@@ -1,6 +1,6 @@
 {
   "name": "lab-angular-ui-core",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jasmine": "^2.4.1"
+    "angular": "^1.5.8"
   }
 }
