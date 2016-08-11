@@ -1,7 +1,7 @@
 /// <reference path="..\typings\globals\angular\index.d.ts" />
 /// <reference path="..\typings\globals\angular-route\index.d.ts" />
 
-module SpaCore {
+export module SpaCore {
   'use strict';
 
   function routes($routeProvider: ng.route.IRouteProvider) {
