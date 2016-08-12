@@ -1,16 +1,16 @@
-import core = require('../node_modules/lab-angular-ui-ui/node_modules/lab-angular-ui-core');
+import { IAppConfig } from '../node_modules/lab-angular-ui-ui/node_modules/lab-angular-ui-core';
 import { IUiAppConfig } from 'lab-angular-ui-ui';
 
 export class ExampleAppConfig implements IUiAppConfig {
 
    title: string;
    description: string;
-   modalService: any;
+   modalService: ng.ui.bootstrap.IModalService;
 
-   setData(): ng.ui.bootstrap.IModalSettings {
+   setData(): ng.ui.bootstrap.IButtonConfig {
       return { };
    }
 
 }
 
-angular.module('SpaExample, []');
+angular.module('SpaExample', []);
