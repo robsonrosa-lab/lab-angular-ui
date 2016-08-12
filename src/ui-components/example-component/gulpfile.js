@@ -29,4 +29,9 @@ gulp.task('dist-view', ['clean-up'], function () {
     .pipe(gulp.dest('dist/template'));
 });
 
-gulp.task('default', ['build-ts', 'build-less', 'dist-view']);
+gulp.task('dist-demo', ['clean-up'], function () {
+  return gulp.src('demo/**/*.html')
+    .pipe(gulp.dest('dist/demo'));
+});
+
+gulp.task('default', ['build-ts', 'build-less', 'dist-view', 'dist-demo']);

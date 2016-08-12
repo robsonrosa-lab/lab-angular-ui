@@ -1,5 +1,3 @@
-import angular = require('angular');
-
 export interface IAppConfig extends ng.IAngularBootstrapConfig {
 
    title: string;
@@ -7,3 +5,4 @@ export interface IAppConfig extends ng.IAngularBootstrapConfig {
 }
 
 angular.module('SpaCore', []);
+

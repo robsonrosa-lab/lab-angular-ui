@@ -1,8 +1,7 @@
 import core = require('../node_modules/lab-angular-ui-ui/node_modules/lab-angular-ui-core');
-import ui = require('lab-angular-ui-ui');
-import ng = angular;
+import { IUiAppConfig } from 'lab-angular-ui-ui';
 
-export class ExampleAppConfig implements ui.IUiAppConfig {
+export class ExampleAppConfig implements IUiAppConfig {
 
    title: string;
    description: string;
@@ -14,7 +13,4 @@ export class ExampleAppConfig implements ui.IUiAppConfig {
 
 }
 
-
-class Coisa implements core.IAppConfig {
-   
-} 
+angular.module('SpaExample, []');
