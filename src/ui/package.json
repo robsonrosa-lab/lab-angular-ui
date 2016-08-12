@@ -1,6 +1,6 @@
 {
   "name": "lab-angular-ui-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular-ui-bootstrap": "^2.0.1",
     "bootstrap": "^3.3.7",
     "lab-angular-ui-core": ">0.0.1"
   }
