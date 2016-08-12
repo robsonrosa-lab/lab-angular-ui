@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lab-angular-ui-ui": ">0.0.1"
+    "lab-angular-ui-ui": "0.0.8"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
