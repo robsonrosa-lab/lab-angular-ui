@@ -7,4 +7,18 @@ export interface IUiAppConfig extends IAppConfig {
 
 }
 
+export class ModalService {
+   static $inject =  ['$modal'];
+
+   constructor(private $modal: any) {
+
+   }
+
+   openModal() : void {
+      this.$modal.open();
+   }
+
+}
+
+
 angular.module('SpaUi', []);

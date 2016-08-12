@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "angular-ui-bootstrap": "^2.0.1",
+    "angular-ui-router": "^0.3.1",
     "bootstrap": "^3.3.7",
     "lab-angular-ui-core": ">0.0.1"
   }
